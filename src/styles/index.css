@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  background: linear-gradient(153deg, #0E001C 50%, rgb(0, 0, 0) 100%);
+  min-height: 100vh;
+  color: #cecccc;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  color: #3366BB;
+  text-decoration: none;
+}
+
+input {
+  background-color: rgba(9, 0, 18, 0.862745098);
+  width: 100%;
+  padding: 0.2rem 0.5rem;
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  line-height: 2rem;
+  border-radius: 0.3rem;
+  resize: none;
+  color: #cecccc;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator {
+  filter: invert(0.5);
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.subtitle {
+  color: #b256f9;
+  font-size: 1.8rem;
+  font-weight: 700;
+  width: 85%;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  line-height: 2rem;
+  border-radius: 0.3rem;
+  resize: none;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: #7C10AD;
+  color: #cecccc;
+}
+
+.btn-variant {
+  background: #b256f9;
+  color: #0D0D0D;
+}
+
+.btn-small {
+  border-radius: 0.6rem;
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+}
+
+/*# sourceMappingURL=index.css.map */
